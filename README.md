@@ -55,7 +55,7 @@ In "main.cpp", I believe I have enough comments to get started.
 
 // the following is the starting point.
 X	X	X	X	X	X	X	X	X	X	
-X	a 		X				b	X	
+X	a 		X				    b	X	
 X									X	
 X					X				X	
 X								X	X	
