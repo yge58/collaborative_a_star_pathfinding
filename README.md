@@ -29,7 +29,7 @@ No.2 method
 
 If you are an expert in multi-agent pathfinding, please skip.
 
-If you are a beginner of a-star, you may find "A_Pathfinding for Beginners.pdf" in foler "doc"  very helpful. Psudo code from wikipedia on a-star is good too.
+If you are a beginner of a-star, you may find "A_Pathfinding for Beginners.pdf" in folder "doc"  very helpful. Psudo code from wikipedia on a-star is good too.
 
 Good! Now you are no longer a beginner.
 
