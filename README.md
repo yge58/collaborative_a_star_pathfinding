@@ -4,8 +4,6 @@ Based on David Silver's paper "Cooperative Pathfinding"
 ____________________________________________________________
 This project is dedicated to my mom and dad!
 I want the world to know how grateful I am to be your child!
-____________________________________________________________
-
 
 Author:     Yan Ge
 
@@ -13,7 +11,6 @@ Created from June, 2017 to July, 2017
 
 
 # compile
-_____________________________________________________________
 No.1 method:
 
 [1]     create a directory, copy all files. type "make", and then "make clean"
@@ -29,7 +26,6 @@ No.2 method
 
 
 # I know a-star, what is collaborative a-star?
-______________________________________________________________
 
 If you are an expert in multi-agent pathfinding, please skip.
 
@@ -45,7 +41,6 @@ If you are curious about system design, please find "report_3_system_specificati
 
 
 # how to use
-______________________________________________________________
 
 In "main.cpp", I think comments are good enough for you to get started.
 
