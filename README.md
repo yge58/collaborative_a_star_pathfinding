@@ -14,12 +14,14 @@ Created from June, 2017 to July, 2017
 
 # compile
 No.1 method:
+
 [1]     create a directory, copy all files. type "make", and then "make clean"
 
 [2]     voila! type "cd bin", and type "./coop_astar"
 
 
 No.2 rogue method
+
 [1]     go to test, copy that one file "collaborative_astar_pathfinding.cpp" into your directory
 
 [2]     g++ -g -std=c++11 collaborative_astar_pathfinding.cpp -o <output>
