@@ -1,34 +1,41 @@
 # collaborative_a_star_pathfinding
 Based on David Silver's paper "Cooperative Pathfinding"
 
-Author:  yan ge
+____________________________________________________________
+This project is dedicated to my mom and dad!
+I want the world to know how grateful I am to be your child!
+____________________________________________________________
+
+
+Author:     Yan Ge
 
 Created from June, 2017 to July, 2017
-____________________________________________
-This project is dedicated to my mom and dad!
 
 
 # compile
----No.1 method---
-[1] create a directory, copy all files. type "make", and then "make clean"
-[2] voila! type "cd bin", and type "./coop_astar"
+No.1 method:
+[1]     create a directory, copy all files. type "make", and then "make clean"
 
----No.2 rogue method---
-[1] go to test, copy that one file "collaborative_astar_pathfinding.cpp" into your directory
-[2] g++ -g -std=c++11 collaborative_astar_pathfinding.cpp -o <output>
+[2]     voila! type "cd bin", and type "./coop_astar"
 
 
-# tell me about your project. I know a-star, what is collaborative a-star?
+No.2 rogue method
+[1]     go to test, copy that one file "collaborative_astar_pathfinding.cpp" into your directory
+
+[2]     g++ -g -std=c++11 collaborative_astar_pathfinding.cpp -o <output>
+
+
+# I know a-star, what is collaborative a-star?
 
 If you are an expert in multi-agent pathfinding using A-star, please skip.
 
 If you are a beginner of a-star, you may find "A_Pathfinding for Beginners.pdf" in foler "doc"  very helpful. Psudo code from wikipedia on a-star is good too.
 
-Good! Now I assume you are no longer a beginner.
+Good! Now you are no longer a beginner.
 
-A-star is good for single agent pathfinding! now lets do multi-agent pathfinding.
+A-star is well-suited for single agent pathfinding! But not for multi-agent pathfinding.
 
-My project is based on David Silver's paper "Cooperative pathfinding", you may find "cooperative pathfinding" in doc.
+My project is based on David Silver's paper "Cooperative pathfinding".
 
 If you are curious about system design, please find "report_3_system_specification.pdf" and other documentation in doc.
 
@@ -38,7 +45,7 @@ If you are curious about system design, please find "report_3_system_specificati
 In "main.cpp", I believe I have enough comments to get started.
 
 
-# demo (sorry there is no GUI, command line only)
+# demo (sorry there is no GUI, command line use only)
 
 // this is a map 8 by 16 with two agents, a and b;
 // a wants to go to b's current location, (8,1);
