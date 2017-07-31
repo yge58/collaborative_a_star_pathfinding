@@ -25,7 +25,7 @@ No.2 method
 [2]     g++ -g -std=c++11 collaborative_astar_pathfinding.cpp -o "output_filename"
 
 
-# I know a-star, what is collaborative a-star?
+# what is collaborative a-star?
 
 If you are an expert in multi-agent pathfinding, please skip.
 
@@ -45,7 +45,7 @@ If you are curious about system design, please find "report_3_system_specificati
 In "main.cpp", I think comments are good enough for you to get started.
 
 
-# (sorry there is no GUI, command line use only)
+# (I am very sorry that I have no time to build GUI, command line use only)
 
 
 
