@@ -24,7 +24,7 @@ No.2 rogue method
 
 [1]     go to test, copy that one file "collaborative_astar_pathfinding.cpp" into your directory
 
-[2]     g++ -g -std=c++11 collaborative_astar_pathfinding.cpp -o <output>
+[2]     g++ -g -std=c++11 collaborative_astar_pathfinding.cpp -o "output_filename"
 
 
 # I know a-star, what is collaborative a-star?
