@@ -29,7 +29,7 @@ No.2 rogue method
 
 # I know a-star, what is collaborative a-star?
 
-If you are an expert in multi-agent pathfinding using A-star, please skip.
+If you are an expert in multi-agent pathfinding, please skip.
 
 If you are a beginner of a-star, you may find "A_Pathfinding for Beginners.pdf" in foler "doc"  very helpful. Psudo code from wikipedia on a-star is good too.
 
