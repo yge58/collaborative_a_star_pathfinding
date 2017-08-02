@@ -78,35 +78,47 @@ int main(int args, char **argv)
 
   uint n_agents = agent_list.size();
   bool all_agents_find_goal = false;
-
+  /*have all agents reach goal yet?*/
   while(!all_agents_find_goal)
     {
       cout << ">>>>>>>>>>>>>>>>>    Do all agents reach destination?    <<<<<<<<<<<<<<<<\n";
       uint n_agents_at_goal = 0;
+      /*get agent current location, if agent at goal, increment n_agents_at_goal. */
       for (auto i = 0; i < n_agents; ++i) 
 	if (agent_list[i]->get_current_node() == agent_list[i]->getGoal()) 
 	  n_agents_at_goal++;
-
+      /*compare number of agents at goal, with number of agents.*/
       if (n_agents_at_goal == n_agents)
-	{
+	{ /*If yes, good news, all agents find goal!*/
 	  all_agents_find_goal = true;
 	  cout << "Success! All agents reached goal!\n";
 	  break;
 	}
+      /* 99% of computation time is spent from now on...*/
+      /* 
+	 create a vector of hash map, the key of hash map is Node, value is a pointer to an agent. 
+         the window size is 8.
+	 Now we just created a windowed space-time map. what is that? let me explain.
+	 
+	 Time is not time like min or sec. Time is unit to represent a frame, a step for all agents.
+	 below, I used a vector. space_time_map[0] means at the begining. 
+	 space_time_map[7] means after 7 steps, at step 8 or the end of current window,
+	 where are the agents located on the map. 
 
-      vector<unordered_map<Node, Agent*>> space_map(WINDOW_SIZE);
-      print_agents_current_position(agent_list);
+	 say if at time 5, Yan is located at node (3,4).
+	 how to capture Yan? space_time_map[4][{3,4}] ; I hope you got the idea, the syntax may be wrong.
+
+	 notice that, one node, one agent, it is not allowed to have multiple agents sitting at one node. 
+	 Now I hope that you know what is space_time_map, and what I mean by time.
+      */
+      vector<unordered_map<Node, Agent*>> space_time_map(WINDOW_SIZE); 
+      /* iterate agent_list, set path for each agent*/
       for (auto agent : agent_list)
-	{
-	  agent->set_portion_path( space_map );
-	  list<Node> l;
-	  agent->get_portion_path( l );
-	  print_path(l);
-	  update_space_map(space_map, agent);
+	{/* say it is Yan's turn. Yan sets path according to space_time_map */
+	  agent->set_portion_path( space_time_map );
+	  /* put Yan's path on the space_time_map */
+	  update_space_map(space_time_map, agent);
 	}
-      print_space_map(space_map, map);
-      space_time_map.push_back(space_map);
-    }
-
+    } // end of the while loop.
   return 0;
 }
