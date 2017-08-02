@@ -35,7 +35,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SO
   thank my mom and dad for supporting my grad study.
   thank myself for not giving up.
 
-  compile:  g++ -g -std=c++11 Agent.cxx Map.cxx main.cpp -o main
+  compile:  g++ -g -std=c++11 ./src/Agent.cxx ./src/Map.cxx main.cpp -o main
 
   editor:  emacs
 
