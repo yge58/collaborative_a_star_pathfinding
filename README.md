@@ -12,8 +12,7 @@ Author:     Yan Ge
 
 Created from June, 2017 to July, 2017
 
-
-# This project is about multi-agent pathfinding, the code is based on the paper "Cooperative pathfinding" from David Silver
+This project is about multi-agent pathfinding based on the paper "Cooperative pathfinding" from David Silver
 
 
 
