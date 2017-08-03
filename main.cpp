@@ -24,20 +24,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SO
   
   based on windowed hierarchical cooperative A-star from David Silver
 
-  (this file contains all.)
-
   author: Yan Ge 
   project created from June to July, 2017.
  
-  thank numerous online resource on pathfinding.
-  thank David Silver, and his paper "Cooperative Pathfinding".
-  thank Professor Hamada Ghenniwa for his teaching.
-  thank my mom and dad for supporting my grad study.
-  thank myself for not giving up.
-
-  compile:  g++ -g -std=c++11 ./src/Agent.cxx ./src/Map.cxx main.cpp -o main
-
-  editor:  emacs
 
 /*********************************************************************************************/
 #include "common.hpp"
