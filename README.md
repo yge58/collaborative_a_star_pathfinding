@@ -1,4 +1,4 @@
-# Cooperative pathfinding (alpha version)
+# Collaborative A* Pathfinding (alpha version)
 
 Command line only, GUI is under development.
 
