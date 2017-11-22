@@ -1,11 +1,11 @@
 # What is it?
 A-star, you know it well. It gives the best path from A to B.
 
-Well, here is some c++ I wrote from scratch for multiple people finding there own path.
+In this project, the cpp code I wrote from scratch is for multiple people finding their own path.
 
-E.g, people No.1 goes from A1 to B1, people No.2 goes from A2 to B2... so on.
+E.g, Alice goes from A1 to B1, Bob goes from A2 to B2... so on and so forth.
 
-Their paths shall not collide, and this is the hardest part to code.
+Their paths shall not collide which is the hardest part to code.
 
 Based on paper "Cooperative Pathfinfing" by David Silver. (http://www.aaai.org/Library/AIIDE/2005/aiide05-020.php)
 
