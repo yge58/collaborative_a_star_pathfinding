@@ -1,5 +1,5 @@
 # What is it?
-A-star, you know it well. It gives the best path from A to B for one people.
+A-star, you know it well. It gives the best path from A to B.
 
 Well, here is some c++ I wrote from scratch for multiple people finding there own path.
 
